@@ -1,5 +1,8 @@
 import React from 'react'
 import './Header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome, faPhoneAlt, faTools, faUserTie, faWindowRestore } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 const Navbar = () => {
     return (
@@ -10,12 +13,24 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item my-2 text-center"> Home</li>
-                    <li className="nav-item my-2 text-center">About</li>
-                    <li className="nav-item my-2 text-center">Service</li>
-                    <li className="nav-item my-2 text-center">Portfolio</li>
-                    <li className="nav-item my-2 text-center">Resume</li>
-                    <li className="nav-item my-2 text-center">Contact</li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faHome} /> Home
+                    </li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} /> About
+                    </li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Service
+                    </li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Portfolio
+                    </li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} /> Resume
+                    </li>
+                    <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} /> Contact
+                    </li>
                 </ul>
             </div>
         </nav>
