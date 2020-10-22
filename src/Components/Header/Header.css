@@ -23,6 +23,7 @@
     background: linear-gradient(to right bottom, #636e72, #2d3436, #636e72);
     border-radius: 0 0 7px 7px;
     padding: 0 10px;
+    z-index: 1111;
 }
 
 
