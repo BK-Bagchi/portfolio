@@ -1,5 +1,6 @@
 .navbar{
     background: linear-gradient(to right bottom, #636e72 15%, #2d3436 70%, #636e72 15%);
+    height: 10vh !important;
 }
 .navbar h3{
     font-family: 'Comic Neue', cursive;
@@ -17,4 +18,88 @@
 .navbar li:hover{
     background: linear-gradient(to right bottom, #2d3436 80%, #636e72 20%);
     box-shadow: 1px 1px 2px #000, 1px -1px 2px #000;
+}
+.navbar-collapse{
+    background: linear-gradient(to right bottom, #636e72, #2d3436, #636e72);
+    border-radius: 0 0 7px 7px;
+    padding: 0 10px;
+}
+
+
+.holder{
+    height: 90vh !important;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 89vh; 
+    min-height: 680px;
+    background: linear-gradient(to right bottom, #636e72 20%, #2d3436 80%);
+}
+.holder .item1{
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px 7px;
+    box-shadow: 0 5px 15px #2d3436,-10px -5px 20px #475053;
+}
+.holder .item1 .image{
+    height: 100%;
+    width: 100%;
+}
+.holder .item2{
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.holder .img{
+    height: 100%;
+    width: 50%;
+    min-width: 330px;
+}
+
+.holder .contain .text{
+    text-align: center;
+    color: white;
+    white-space: pre;
+}
+.holder .contain .text label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    label.logo{padding: 0 0 0 70px;}
+}
+@media only screen and (min-width: 500px) {
+}
+@media only screen and (min-width: 545px) {
+    .holder .item1{width: 70%;}
+    .holder .item2{width: 70%;}
+}
+
+@media only screen and (min-width: 650px) {
+    .holder .contain .text label{font-size: 50px;}
+}
+
+@media only screen and (min-width: 770px) {
+    .holder .contain .text{white-space: normal;} 
+}
+
+@media only screen and (min-width: 825px) {
+    .holder .item1{position: relative; width: 40%; height: 80%; }
+    .holder .item2{position: relative; width: 60%;}
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-collapse{background: transparent;}
 }
