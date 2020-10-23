@@ -1,6 +1,10 @@
 .CircularProgressbar-path{
     stroke: #2f3542 !important;
 }
+.CircularProgressbar-text{
+    fill: black !important;
+    font-weight: 600;
+}
 .addition-skill h5{
     font-size:30px;
 }
