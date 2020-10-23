@@ -16,3 +16,15 @@
 .about .btn{
     min-width: 120px;
 }
+.about .me{
+    border-radius:50%;
+    width: 100%;
+    max-width: 290px;
+    border: 7px solid gray;
+}
+.about .brandIcons li{
+    font-size: 30px;
+}
+.about .brandIcons a{
+    color: black;
+}
