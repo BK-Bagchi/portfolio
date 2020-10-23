@@ -1,0 +1,39 @@
+.work{
+}
+.work .card a{
+    color:white;
+    padding:8px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.work .card a:hover{
+    text-decoration:none;
+}
+.work .card-footer{
+    background: inherit;
+    border: none;
+}
+.work .link-github{
+    background: linear-gradient(to left top,#a4b0be 35%, #2f3542 85%);
+    box-shadow: 1px 1px 1px #2f3542;
+}
+.work .link-site{
+    background: linear-gradient(to top right, #a4b0be, #2f3542);
+}
+.work .each-work{
+    min-width: 305px;
+    transition:0.5s;
+    color: white;
+}
+.work .card-body{
+    height: 155px;
+}
+.work .each-work:hover{
+    /* transform:scale(0.9); */
+    z-index:10;
+}
+.work .card{
+    border:none;
+    background: black;
+    border-radius: 0px !important;
+}
