@@ -31,7 +31,7 @@ const Skills = () => {
                                         }}
                                     />
                                 </CircularProgressbarWithChildren>
-                                <h6 className="m-0 text-center">{skill}</h6>
+                                <h6 className="m-0 text-center this-skill">{skill}</h6>
                             </div>
                         )
                     })
