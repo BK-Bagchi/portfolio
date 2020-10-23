@@ -19,12 +19,12 @@ const Navbar = () => {
                     <li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} /> About
                     </li>
-                    {/* <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Service
-                    </li> */}
                     <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Portfolio
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Service
                     </li>
+                    {/* <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Portfolio
+                    </li> */}
                     <li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} /> Resume
                     </li>
