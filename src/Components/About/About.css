@@ -1,4 +1,5 @@
 .about{
+    background:  linear-gradient(to right bottom,#ebf5fc, #7ed6df, #32a3b1);
 }
 .about .head h1{
     color: #2d3436;
@@ -20,7 +21,7 @@
     border-radius:50%;
     width: 100%;
     max-width: 290px;
-    border: 7px solid gray;
+    border: 7px solid white;
 }
 .about .brandIcons li{
     font-size: 30px;

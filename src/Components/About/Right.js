@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills/Skills'
 import Work from './Works/Work'
 
 const Right = () => {
@@ -16,8 +17,9 @@ const Right = () => {
                         career with a progressive organization that provides the opportunity for development.</p>
             </div>
             <div className="skills my-5">
-                skill section comes here
-                    </div>
+                <h3>Skills</h3>
+                <Skills />
+            </div>
             <div className="experience my-5">
                 <h3>Experience</h3>
                 <p className="text-muted m-0">Oct 2020- Present</p>
