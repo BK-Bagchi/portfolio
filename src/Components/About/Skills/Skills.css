@@ -1,3 +1,15 @@
 .CircularProgressbar-path{
     stroke: #2f3542 !important;
 }
+.addition-skill h5{
+    font-size:30px;
+}
+.addition-skill li{
+    color: white;
+    font-size: 25px;
+    background: linear-gradient(to right bottom, #2d3436, #636e72);
+    margin: 10px !important;
+    padding: 6px 20px;
+    border-radius:30px;
+    box-shadow: 0 7px 5px black;
+}
