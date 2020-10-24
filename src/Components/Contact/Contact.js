@@ -11,7 +11,7 @@ const Contact = () => {
                 <main className="container">
                     <div className="row w-100 m-0">
                         <div className="col-md-8">
-                            <form className="contact-form d-flex flex-column">
+                            <form className="contact-form d-flex flex-column" data-netlify="true">
                                 <input type="text" placeholder="Your Name" />
                                 <input type="email" placeholder="Your Email" />
                                 <textarea name="" rows="13" placeholder="Your message"></textarea>
