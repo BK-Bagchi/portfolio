@@ -9,7 +9,7 @@ const Contact = () => {
         <>
             <section className="contact py-5">
                 <main className="container">
-                    <div className="row">
+                    <div className="row w-100 m-0">
                         <div className="col-md-8">
                             <form className="contact-form d-flex flex-column">
                                 <input type="text" placeholder="Your Name" />

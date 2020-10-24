@@ -13,6 +13,7 @@
     border-radius: 2px;
     border: 1px solid white;
     color: white;
+    background: rgba(255,255,255,0.05);
 }
 .contact input{
     height: 70px;
