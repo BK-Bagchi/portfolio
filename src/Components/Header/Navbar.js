@@ -5,6 +5,10 @@ import { faHome, faPhoneAlt, faTools, faUserTie, faWindowRestore } from '@fortaw
 import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 const Navbar = () => {
+    const showResume = () => {
+        window.open("https://drive.google.com/file/d/1A4QMZobBGOc1CiQx7labMyjJRQesZo7J/view?usp=sharing", "_blank")
+    }
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <h3 className="navbar-brand">BK Bagchi</h3>
@@ -25,7 +29,7 @@ const Navbar = () => {
                     {/* <li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Portfolio
                     </li> */}
-                    <li className="nav-item my-2 text-center">
+                    <li className="nav-item my-2 text-center" onClick={showResume}>
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} /> Resume
                     </li>
                     <li className="nav-item my-2 text-center">

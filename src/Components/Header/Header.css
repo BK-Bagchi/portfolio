@@ -2,6 +2,9 @@
     background: linear-gradient(to right bottom, #636e72 15%, #2d3436 70%, #636e72 15%);
     height: 10vh !important;
 }
+.navbar .nav-item{
+    cursor: pointer;
+}
 .navbar h3{
     font-family: 'Comic Neue', cursive;
     font-style: italic;
