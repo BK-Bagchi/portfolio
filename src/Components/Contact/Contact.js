@@ -18,7 +18,7 @@ const Contact = () => {
                                 <input type="submit" value="Send" />
                             </form>
                         </div>
-                        <div className="col-md-4 side-panel d-flex align-items-center justify-content-center">
+                        <div className="col-md-4 m-0 p-2 side-panel d-flex align-items-center justify-content-center">
                             <div className="contact-info">
                                 <div className="phone my-5">
                                     <p className="m-0 logo"><FontAwesomeIcon icon={faPhoneAlt} /></p>

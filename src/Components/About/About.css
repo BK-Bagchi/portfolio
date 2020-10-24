@@ -1,5 +1,9 @@
 .about{
-    background:  linear-gradient(to right bottom,#ebf5fc, #7ed6df, #32a3b1);
+    /* background:  linear-gradient(to right bottom,#ebf5fc, #7ed6df, #32a3b1); */
+    background-image: url('../../Images/About-bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .about .head h1{
     color: #2d3436;

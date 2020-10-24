@@ -1,6 +1,8 @@
-.contact{
-    /* background: #FBD062; */
-    /* padding: 70px; */
+.contact, footer{
+    background-image: url('../../Images/About-bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .contact input,
 .contact textarea{
@@ -8,33 +10,37 @@
     outline: none;
     margin: 10px 0px; 
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: white;
 }
 .contact input{
     height: 70px;
 }
 .contact input[type="submit"]{
-    background: #2f3542;
-    color: white;
+    background: white;
+    color: black;
     border: none;
     outline: none;
-    border-radius:5px;
+    border-radius:2px;
     width: 150px;
     height: 50px;
 }
 footer{
-    background: #FBD062;
     padding:10px 0;
+    color: white;
+    font-weight:600;
 }
 .contact .side-panel{
-    border: 1px solid #2f3542;
-    border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 0 !important;
 }
 .contact .logo{
+    color: white;
     width: 60px;
     padding: 17px 20px;
-    border: 1px solid #2f3542;
+    border: 1px solid white;
     border-radius: 50%;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -42,10 +48,11 @@ footer{
     transform: scale(1.1); 
 }
 .contact .logo:hover{
-    background: #2f3542;
-    color: white;
+    background: white;
+    color: #2f3542;
 }
 .contact .info{
+    color: white;
     margin-top: 5px;
     font-size: 18px;
     text-align: center;
@@ -57,5 +64,5 @@ footer{
     font-size:30px;
 }
 .contact li a{
-    color: #2f3542;
+    color: white;
 }
