@@ -32,7 +32,6 @@
 
 .holder{
     height: 90vh !important;
-    z-index: -1;
     position: relative;
     display: flex;
     align-items: center;
@@ -67,7 +66,32 @@
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
 }
-
+.holder .contact-btn,
+.holder .resume{
+    border: none;
+    outline: none;
+    margin:20px 10px;
+    padding: 9px 20px;
+    border-radius: 3px;
+}
+.holder .contact-btn{
+    color: white;
+    background:#2f3542;
+    border: 2px solid #2f3542;
+}
+.holder .contact-btn:hover{
+    background:#636e72;
+    border: 2px solid white;
+}
+.holder .resume{
+    color: white;
+    background: #636e72;
+    border: 1px solid white;
+}
+.holder .resume:hover{
+    background: #2f3542;
+    border: 1px solid #2f3542;
+}
 @media only screen and (max-width: 500px) {
     label.logo{padding: 0 0 0 70px;}
 }

@@ -2,6 +2,10 @@ import React from 'react'
 import './Header.css'
 
 const Head = () => {
+    const showResume = () => {
+        window.open("https://drive.google.com/file/d/1B3NkCFZi7MhDir6HBjlKqPp11CxsxvhM/view?usp=sharing", "_blank")
+    }
+
     return (
         <section className="holder">
             <div className="contain item2">
@@ -10,8 +14,8 @@ const Head = () => {
                     <h2>I am <br />
                         <label>Balay Kumar Bagchi</label></h2>
                     <h3>Programmer | Web Developer | Engineer</h3>
-                    <button type="button" class="btn btn-dark m-3">Contact Me</button>
-                    <button type="button" class="btn btn-dark m-3">Download Resume</button>
+                    <button className="contact-btn">Contact Me</button>
+                    <button className="resume" onClick={showResume}>Download Resume</button>
                 </div>
             </div>
         </section>
