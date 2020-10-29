@@ -10,6 +10,7 @@
     text-decoration:none;
 }
 .work .card-footer{
+    padding-top: 0 !important;
     background: inherit;
     border: none;
 }
@@ -24,9 +25,10 @@
     min-width: 305px;
     transition:0.5s;
     color: white;
+    border: 1px solid white;
 }
 .work .card-body{
-    height: 321px;
+    height: 290px;
 }
 .work .each-work:hover{
     transform:scale(0.9);
@@ -36,4 +38,8 @@
     border:none;
     background: black;
     border-radius: 0px !important;
+}
+.work .card-img-top{
+    width:100%;
+    height: 190px !important;
 }

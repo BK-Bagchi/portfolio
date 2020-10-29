@@ -24,7 +24,7 @@ const Navbar = () => {
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} /> About
                     </li>
                     <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Service
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Works
                     </li>
                     {/* <li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Portfolio
