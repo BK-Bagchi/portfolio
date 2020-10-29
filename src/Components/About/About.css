@@ -9,7 +9,7 @@
     color: #2d3436;
 }
 .about h3, .about h4{
-    color: orangered;
+    /* color: green; */
 }
 .about ul{
     list-style-type: none;

@@ -2,7 +2,11 @@ const workDetails = [
     {
         id: 1,
         name: 'Red Onion Foods',
-        description: 'Red Onion is a website that is represented as a website of a professional food service restaurant.',
+        description: [
+            'MERN project for a food delivery service or restaurant.',
+            'Provides different menu for breakfast, lunch and dinner.',
+            'Built with ReactJS, Material-UI, Bootstrap, ExpressJS, Firebase auth.'
+        ],
         image: 'Red-Onion-Foods.png',
         github: 'https://github.com/BK-Bagchi/red-onion-restaurent',
         liveSite: 'https://the-red-onion-foods.web.app/'
@@ -10,7 +14,35 @@ const workDetails = [
     {
         id: 2,
         name: 'The Ultimate Traveller',
-        description: 'A prototype of a traveling agency website showing different tourist destination.',
+        description: [
+            'ReactJS based front-end project showing different travel destination.',
+            'User selects his travel destination and fills the information form.',
+            'Built with ReactJS, Material-UI, Bootstrap, Firebase auth.'
+        ],
+        image: 'The-Ultimate-Traveller.png',
+        github: 'https://github.com/BK-Bagchi/the-ultimate-traveler',
+        liveSite: 'https://the-ultimate-traveler.web.app/'
+    },
+    {
+        id: 5,
+        name: 'Volunteer Network',
+        description: [
+            'MERN project with real-time database shows different volunteering options.',
+            'User selects any work and register for the volunteering.',
+            'User has his own dashboard to see his selected works.',
+        ],
+        image: 'The-Ultimate-Traveller.png',
+        github: 'https://github.com/BK-Bagchi/the-ultimate-traveler',
+        liveSite: 'https://the-ultimate-traveler.web.app/'
+    },
+    {
+        id: 5,
+        name: 'Creative Agency',
+        description: [
+            'Full-stack project with different feature for software or design firm.',
+            'User can order a work, review on work, see order condition from dashboard.',
+            'Admin can see all order list, add new feature and admin from dashboard.',
+        ],
         image: 'The-Ultimate-Traveller.png',
         github: 'https://github.com/BK-Bagchi/the-ultimate-traveler',
         liveSite: 'https://the-ultimate-traveler.web.app/'
@@ -18,7 +50,11 @@ const workDetails = [
     {
         id: 3,
         name: 'React E-School',
-        description: 'Project description',
+        description: [
+            'React based web application shows components on screen using API data.',
+            'Calls different APIs, manages data in client side and shows an organized view.',
+            'Built with ReactJS, React Router, Material-UI, Bootstrap.'
+        ],
         image: 'React-E-School.png',
         github: 'https://github.com/BK-Bagchi/react-e-school',
         liveSite: 'https://eschool-react.netlify.app/'
@@ -26,7 +62,11 @@ const workDetails = [
     {
         id: 4,
         name: 'Social Buddy',
-        description: 'API based ReactJS built web application. Calls data from different API and shows those data in an organized way.',
+        description: [
+            'React based web application shows components on screen using API data.',
+            'Calls different APIs, manages data in client side and shows an organized view.',
+            'Built with ReactJS, React Router, Material-UI, Bootstrap.'
+        ],
         image: 'Social-Buddy.png',
         github: 'https://github.com/BK-Bagchi/social-buddy',
         liveSite: 'https://social-dude.netlify.app/'
@@ -34,7 +74,11 @@ const workDetails = [
     {
         id: 5,
         name: 'That Pixabay Traveller',
-        description: 'Project description',
+        description: [
+            'React based web application shows components on screen using API data.',
+            'Calls different APIs, manages data in client side and shows an organized view.',
+            'Built with ReactJS, React Router, Material-UI, Bootstrap.'
+        ],
         image: 'That-Pixabay-Traveller.png',
         github: 'https://github.com/BK-Bagchi/that-pixabay-traveler',
         liveSite: 'https://bk-bagchi.github.io/that-pixabay-traveler/'

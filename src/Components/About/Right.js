@@ -7,7 +7,7 @@ const Right = () => {
     return (
         <>
             <div className="head">
-                <h1>Balay Kumar Bagchi</h1>
+                <h1 className="text-dark"><strong>Balay Kumar Bagchi</strong></h1>
                 <h4>Front End Developer</h4>
             </div>
             <div className="objective my-5">
@@ -31,7 +31,7 @@ const Right = () => {
             </div>
             <div className="works my-5 d-flex flex-column align-items-center justify-content-center">
                 <h3 className="align-self-start">Works</h3>
-                <div className="btn-group btn-group-toggle">
+                {/* <div className="btn-group btn-group-toggle">
                     <label className="btn btn-secondary">
                         <p className="m-0">All</p>
                     </label>
@@ -41,7 +41,7 @@ const Right = () => {
                     <label className="btn btn-secondary">
                         <p className="m-0">Full Stack</p>
                     </label>
-                </div>
+                </div> */}
                 <div className="work">
                     <Work />
                 </div>

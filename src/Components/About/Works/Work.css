@@ -26,7 +26,7 @@
     color: white;
 }
 .work .card-body{
-    height: 155px;
+    height: 321px;
 }
 .work .each-work:hover{
     transform:scale(0.9);

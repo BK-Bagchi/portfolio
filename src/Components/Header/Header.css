@@ -42,19 +42,6 @@
     min-height: 680px;
     background: linear-gradient(to right bottom, #636e72 20%, #2d3436 80%);
 }
-.holder .item1{
-    position: absolute;
-    float: left;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 7px 7px;
-    box-shadow: 0 5px 15px #2d3436,-10px -5px 20px #475053;
-}
-.holder .item1 .image{
-    height: 100%;
-    width: 100%;
-}
 .holder .item2{
     position: absolute;
     float: left;
@@ -87,7 +74,6 @@
 @media only screen and (min-width: 500px) {
 }
 @media only screen and (min-width: 545px) {
-    .holder .item1{width: 70%;}
     .holder .item2{width: 70%;}
 }
 
@@ -100,7 +86,6 @@
 }
 
 @media only screen and (min-width: 825px) {
-    .holder .item1{position: relative; width: 40%; height: 80%; }
     .holder .item2{position: relative; width: 60%;}
 }
 

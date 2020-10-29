@@ -6,7 +6,7 @@ import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 const Navbar = () => {
     const showResume = () => {
-        window.open("https://drive.google.com/file/d/1A4QMZobBGOc1CiQx7labMyjJRQesZo7J/view?usp=sharing", "_blank")
+        window.open("https://drive.google.com/file/d/1B3NkCFZi7MhDir6HBjlKqPp11CxsxvhM/view?usp=sharing", "_blank")
     }
 
     return (
