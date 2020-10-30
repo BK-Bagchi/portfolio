@@ -9,7 +9,8 @@ const Left = () => {
         <>
             <img className="me" src={Me} alt="Me" />
             <div className="info">
-                <h3 className="text-dark"><strong>Balay Kumar Bagchi</strong></h3>
+                <h2 className="text-dark"><strong>Balay Kumar Bagchi</strong></h2>
+                <h4 className="text-muted">Front End Developer</h4>
                 <h5 className="my-3"><FontAwesomeIcon icon={faHome} /> 98/1, Sagorpara, Rajshahi</h5>
                 <h6 className="my-3"><FontAwesomeIcon icon={faBuilding} /> Pipesort Technologies LLP</h6>
                 <h6 className="my-3"><FontAwesomeIcon icon={faAt} /> bkbagchi.dipto@gmail.com</h6>

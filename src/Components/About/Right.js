@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Blog from './Blogs/Blog'
 import Experience from './Experience/Experience'
 import Skills from './Skills/Skills'
 import Work from './Works/Work'
@@ -8,10 +9,10 @@ const Right = () => {
 
     return (
         <>
-            <div className="head">
+            {/* <div className="head">
                 <h1 className="text-dark"><strong>Balay Kumar Bagchi</strong></h1>
                 <h4>Front End Developer</h4>
-            </div>
+            </div> */}
             {/* <div className="objective my-5">
                 <h3>Career Objective</h3>
                 <p className="m-0">Love to work with web technologies and make different UI. The initial goal is to
@@ -43,6 +44,10 @@ const Right = () => {
                 <div className="work">
                     <Work work={work} />
                 </div>
+            </div>
+            <div className="blogs my-5 d-flex flex-column align-items-center justify-content-center">
+                <h3 className="align-self-start">Blogs</h3>
+                <Blog />
             </div>
         </>
     );

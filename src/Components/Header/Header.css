@@ -63,7 +63,7 @@
     white-space: pre;
 }
 .holder .contain .text label{
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-size: 40px;
 }
 .holder .contact-btn,
