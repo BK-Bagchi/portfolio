@@ -7,14 +7,14 @@ const Head = () => {
     }
 
     return (
-        <section className="holder">
+        <section id="Home" className="holder">
             <div className="contain item2">
                 <div className="text font-italic">
                     <h3>Hello there...</h3>
                     <h2>I am <br />
                         <label>Balay Kumar Bagchi</label></h2>
                     <h3>Programmer | Web Developer | Engineer</h3>
-                    <button className="contact-btn">Contact Me</button>
+                    <a href="#Contact"><button className="contact-btn">Contact Me</button></a>
                     <button className="resume" onClick={showResume}>Download Resume</button>
                 </div>
             </div>

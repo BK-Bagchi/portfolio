@@ -5,7 +5,7 @@ import Right from './Right'
 
 const About = () => {
     return (
-        <section className="about py-3">
+        <section id="About" className="about py-3">
             <div className="row w-100 m-0">
                 <div className="col-md-4 px-3 d-flex flex-column align-items-center">
                     <Left />

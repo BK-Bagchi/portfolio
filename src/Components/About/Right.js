@@ -28,8 +28,8 @@ const Right = () => {
                 <h3>Experience</h3>
                 <Experience />
             </div>
-            <div className="works my-5 d-flex flex-column align-items-center justify-content-center">
-                <h3 className="align-self-start">Works</h3>
+            <div id="Projects" className="works my-5 d-flex flex-column align-items-center justify-content-center">
+                <h3 className="align-self-start">Projects</h3>
                 <div className="btn-group btn-group-toggle">
                     <label className="btn btn-secondary" onClick={() => setWork('')}>
                         <p className="m-0">All</p>
@@ -45,7 +45,7 @@ const Right = () => {
                     <Work work={work} />
                 </div>
             </div>
-            <div className="blogs my-5 d-flex flex-column align-items-center justify-content-center">
+            <div id="Blogs" className="blogs my-5 d-flex flex-column align-items-center justify-content-center">
                 <h3 className="align-self-start">Blogs</h3>
                 <Blog />
             </div>

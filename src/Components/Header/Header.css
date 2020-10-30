@@ -18,6 +18,12 @@
     font-size: 18px;
     color: white;
 }
+.navbar a, .holder a{
+    color: white;
+}
+.navbar a:hover, .holder a:hover{
+    text-decoration: none;
+}
 .navbar li:hover{
     background: linear-gradient(to right bottom, #2d3436 80%, #636e72 20%);
     box-shadow: 1px 1px 2px #000, 1px -1px 2px #000;

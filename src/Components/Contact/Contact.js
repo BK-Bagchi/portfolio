@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faPhoneAlt } from '@fortawesome/free-solid-svg-icon
 const Contact = () => {
     return (
         <>
-            <section className="contact py-5">
+            <section id="Contact" className="contact py-5">
                 <main className="container">
                     <div className="row w-100 m-0">
                         <div className="col-md-8">

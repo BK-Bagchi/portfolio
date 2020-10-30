@@ -17,24 +17,24 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faHome} /> Home
-                    </li>
-                    <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} /> About
-                    </li>
-                    <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Projects
-                    </li>
-                    <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Blogs
-                    </li>
+                    <a href="#Home"><li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faHome} />Home
+                    </li></a>
+                    <a href="#About"> <li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} />About
+                    </li></a>
+                    <a href="#Projects"><li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} />Projects
+                    </li></a>
+                    <a href="#Blogs"><li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} />Blogs
+                    </li></a>
                     <li className="nav-item my-2 text-center" onClick={showResume}>
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} /> Resume
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Resume
                     </li>
-                    <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} /> Contact
-                    </li>
+                    <a href="#Contact"><li className="nav-item my-2 text-center">
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} />Contact
+                    </li></a>
                 </ul>
             </div>
         </nav>
