@@ -1,6 +1,6 @@
 import React from 'react'
 import './Blog.css'
-import Img from '../../../Images/React-E-School.png'
+import Img from '../../../Images/5-Reasons-to-learn-JS.png'
 
 const Blog = () => {
     return (

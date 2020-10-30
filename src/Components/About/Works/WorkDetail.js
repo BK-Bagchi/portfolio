@@ -34,7 +34,7 @@ const workDetails = [
             'User has his own dashboard to see his selected works.',
         ],
         category: 'fullStack',
-        image: 'The-Ultimate-Traveller.png',
+        image: 'Volunteer-Network.png',
         github: 'https://github.com/BK-Bagchi/the-ultimate-traveler',
         liveSite: 'https://the-ultimate-traveler.web.app/'
     },
@@ -47,7 +47,7 @@ const workDetails = [
             'Admin can see all order list, add new feature and admin from dashboard.',
         ],
         category: 'fullStack',
-        image: 'The-Ultimate-Traveller.png',
+        image: 'creative-agency.png',
         github: 'https://github.com/BK-Bagchi/the-ultimate-traveler',
         liveSite: 'https://the-ultimate-traveler.web.app/'
     },
