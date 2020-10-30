@@ -3,7 +3,7 @@ import './Header.css'
 
 const Head = () => {
     const showResume = () => {
-        window.open("https://drive.google.com/file/d/1B3NkCFZi7MhDir6HBjlKqPp11CxsxvhM/view?usp=sharing", "_blank")
+        window.open("https://drive.google.com/file/d/12MtgEbxygB5mqd6Dr4JW8xlk4eDtDHi3/view?usp=sharing", "_blank")
     }
 
     return (
@@ -13,7 +13,7 @@ const Head = () => {
                     <h3>Hello there...</h3>
                     <h2>I am <br />
                         <label>Balay Kumar Bagchi</label></h2>
-                    <h3>Programmer | Web Developer | Engineer</h3>
+                    <h3>Programmer | Front End Developer | Engineer</h3>
                     <a href="#Contact"><button className="contact-btn">Contact Me</button></a>
                     <button className="resume" onClick={showResume}>Download Resume</button>
                 </div>

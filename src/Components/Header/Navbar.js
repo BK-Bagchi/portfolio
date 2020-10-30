@@ -3,15 +3,12 @@ import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faPhoneAlt, faTools, faUserTie, faWindowRestore } from '@fortawesome/free-solid-svg-icons'
 import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const showResume = () => {
-        window.open("https://drive.google.com/file/d/1B3NkCFZi7MhDir6HBjlKqPp11CxsxvhM/view?usp=sharing", "_blank")
-    }
-
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <h3 className="navbar-brand">BK Bagchi</h3>
+            <h3 className="navbar-brand">Balay Bagchi</h3>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -29,9 +26,9 @@ const Navbar = () => {
                     <a href="#Blogs"><li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} />Blogs
                     </li></a>
-                    <li className="nav-item my-2 text-center" onClick={showResume}>
+                    <Link to="/resume"><li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Resume
-                    </li>
+                    </li></Link>
                     <a href="#Contact"><li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} />Contact
                     </li></a>
