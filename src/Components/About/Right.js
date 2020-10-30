@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
-import Blog from './Blogs/Blog'
+import React from 'react'
 import Experience from './Experience/Experience'
 import Skills from './Skills/Skills'
-import Work from './Works/Work'
 
 const Right = () => {
-    const [work, setWork] = useState('')
-
     return (
         <>
             {/* <div className="head">
@@ -27,27 +23,6 @@ const Right = () => {
             <div className="experience my-5">
                 <h3>Experience</h3>
                 <Experience />
-            </div>
-            <div id="Projects" className="works my-5 d-flex flex-column align-items-center justify-content-center">
-                <h3 className="align-self-start">Projects</h3>
-                <div className="btn-group btn-group-toggle">
-                    <label className="btn btn-secondary" onClick={() => setWork('')}>
-                        <p className="m-0">All</p>
-                    </label>
-                    <label className="btn btn-secondary active" onClick={() => setWork('frontEnd')}>
-                        <p className="m-0">Front End</p>
-                    </label>
-                    <label className="btn btn-secondary" onClick={() => setWork('fullStack')}>
-                        <p className="m-0">Full Stack</p>
-                    </label>
-                </div>
-                <div className="work">
-                    <Work work={work} />
-                </div>
-            </div>
-            <div id="Blogs" className="blogs my-5 d-flex flex-column align-items-center justify-content-center">
-                <h3 className="align-self-start">Blogs</h3>
-                <Blog />
             </div>
         </>
     );

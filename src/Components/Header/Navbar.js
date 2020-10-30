@@ -15,22 +15,22 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <a href="#Home"><li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faHome} />Home
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faHome} /> Home
                     </li></a>
                     <a href="#About"> <li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} />About
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faAddressCard} /> About
                     </li></a>
                     <a href="#Projects"><li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} />Projects
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTools} /> Projects
                     </li></a>
                     <a href="#Blogs"><li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} />Blogs
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faWindowRestore} /> Blogs
                     </li></a>
                     <Link to="/resume"><li className="nav-item my-2 text-center">
                         <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faUserTie} /> Resume
                     </li></Link>
                     <a href="#Contact"><li className="nav-item my-2 text-center">
-                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} />Contact
+                        <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faPhoneAlt} /> Contact
                     </li></a>
                 </ul>
             </div>
