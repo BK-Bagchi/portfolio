@@ -14,7 +14,7 @@ const Blog = () => {
                             <h5 className="card-title text-white">5 Reasons to learn JavaScript seriously</h5>
                         </div>
                         <div className="card-footer">
-                            <a className="link-github" target="_blank" rel="noopener noreferrer" href="">See Blog</a>
+                            <a className="link-github" target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/5-reasons-why-you-should-learn-javascript-seriously-2c847508ca7c">See Blog</a>
                         </div>
                     </div>
                 </div>

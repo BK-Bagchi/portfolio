@@ -20,8 +20,8 @@ const Head = () => {
                         loop={Infinity}
                         wrapper="h3"
                     />
-                    <a href="#Contact"><button className="contact-btn">Contact Me</button></a>
-                    <button className="resume" onClick={showResume}>Download Resume</button>
+                    <a href="#Contact" className="zIndex"><button className="contact-btn">Contact Me</button></a>
+                    <button className="resume zIndex" onClick={showResume}>Download Resume</button>
                 </div>
             </div>
         </section>

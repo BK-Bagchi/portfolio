@@ -1,10 +1,15 @@
 .my-blog .card{
     min-width: 305px;
     max-width: 305px !important;
-    background: black;
+    background: #2f3542;
     padding: 0;
     border-radius: 0;
     border: none;
+    transition: 0.3s;
+}
+.my-blog .card:hover{
+    transform:scale(0.9);
+    z-index:10;
 }
 .my-blog .card-footer{
     border: none !important;
@@ -13,8 +18,9 @@
 .my-blog a{
     color:white;
     padding:8px 20px;
+    border: 2px solid white;
     border-radius: 5px;
-    background: linear-gradient(to left top,#a4b0be 35%, #2f3542 85%);
+    background: linear-gradient(to left top,#a4b0be, #2f3542 85%);
     box-shadow: 1px 1px 1px #2f3542;
 }
 .my-blog a:hover{
