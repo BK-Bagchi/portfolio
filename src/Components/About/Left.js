@@ -1,14 +1,15 @@
 import React from 'react'
 import Me from '../../Images/MyPSize_Photo.jpg'
+import Fade from 'react-reveal/Fade'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faAt, faBuilding, faHome, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Left = () => {
     return (
-        <>
-            <img className="me animate__animated animate__backInLeft" src={Me} alt="Me" />
-            <div className="info animate__animated animate__backInLeft">
+        <Fade left>
+            <img className="me" src={Me} alt="Me" />
+            <div className="info">
                 <h2 className="text-dark"><strong>Balay Kumar Bagchi</strong></h2>
                 <h4 className="text-muted">Front End Developer</h4>
                 <h5 className="my-3"><FontAwesomeIcon icon={faBuilding} /> Pipesort Technologies LLP</h5>
@@ -22,7 +23,7 @@ const Left = () => {
                     <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/bkbagchi-dipto/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
                 </ul>
             </div>
-        </>
+        </Fade>
     );
 };
 

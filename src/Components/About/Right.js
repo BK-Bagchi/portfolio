@@ -1,10 +1,11 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 import Experience from './Experience/Experience'
 import Skills from './Skills/Skills'
 
 const Right = () => {
     return (
-        <>
+        <Fade right>
             {/* <div className="head">
                 <h1 className="text-dark"><strong>Balay Kumar Bagchi</strong></h1>
                 <h4>Front End Developer</h4>
@@ -24,7 +25,7 @@ const Right = () => {
                 <h3>Experience</h3>
                 <Experience />
             </div>
-        </>
+        </Fade>
     );
 };
 
