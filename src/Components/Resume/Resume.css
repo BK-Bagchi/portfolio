@@ -6,13 +6,45 @@
 .see-resume main{
     background: white;
     min-height: inherit;
-    width: 70%;
-    border-radius: 5px;
+    width: 65%;
+    border-radius: 3px;
 }
 .see-resume .go-back{
-    color: white;
-    font-size: 18px;
     position: fixed;
     top: 5%;
     right: 5%;
+}
+.see-resume .go-back a{
+    color: white;
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.see-resume .color{
+    color: #07B255;
+}
+.see-resume .bold{
+    font-size: 28px;
+}
+.see-resume .link{
+    color: #177DC5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.see-resume li,
+.see-resume h6,
+.see-resume span,
+.see-resume p{
+    font-size: 110%;
+}
+.see-resume .github,
+.see-resume .live-site{
+    font-size: 18px;
+    color: #177DC5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.see-resume .font-italic{
+    font-size: 90%;
 }
