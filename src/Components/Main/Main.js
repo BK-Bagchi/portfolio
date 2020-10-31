@@ -17,12 +17,10 @@ const Main = () => {
                         className="particles"
                         params={{
                             "particles": {
-                                "number": { "value": 100 }, "size": { "value": 3 }
+                                "number": { "value": 75 }, "size": { "value": 3 }
                             },
                             "interactivity": {
-                                "events": {
-                                    "onhover": { "enable": true, "mode": "repulse" }
-                                }
+                                "events": { "onhover": { "enable": true, "mode": "repulse" } }
                             }
                         }} />
                     <Particles

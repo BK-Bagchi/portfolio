@@ -28,6 +28,9 @@
     background: linear-gradient(to right bottom, #2d3436 80%, #636e72 20%);
     box-shadow: 1px 1px 2px #000, 1px -1px 2px #000;
 }
+.navbar-toggler{
+    z-index: 1111;
+}
 .navbar-collapse{
     background: linear-gradient(to right bottom, #636e72, #2d3436, #636e72);
     border-radius: 0 0 7px 7px;
@@ -53,6 +56,9 @@
     justify-content: space-evenly;
     overflow: hidden;
     z-index: 111;
+}
+.holder .my-name{
+    font-size: 50px !important;
 }
 .holder .img{
     height: 100%;
@@ -97,6 +103,7 @@
 }
 @media only screen and (max-width: 500px) {
     label.logo{padding: 0 0 0 70px;}
+    .holder .my-name{font-size: 35px !important;}
 }
 @media only screen and (min-width: 500px) {
 }
@@ -109,7 +116,8 @@
 }
 
 @media only screen and (min-width: 770px) {
-    .holder .contain .text{white-space: normal;} 
+    .holder .contain .text{white-space: normal;}
+    .holder .my-name{font-size: 70px !important;}
 }
 
 @media only screen and (min-width: 825px) {
