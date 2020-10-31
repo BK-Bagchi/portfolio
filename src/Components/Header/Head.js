@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Typical from 'react-typical'
 
 const Head = () => {
     const showResume = () => {
@@ -13,7 +14,12 @@ const Head = () => {
                     <h3>Hello there...</h3>
                     <h2>I am <br />
                         <label>Balay Kumar Bagchi</label></h2>
-                    <h3>Programmer | Front End Developer | Engineer</h3>
+                    {/* <h3>Programmer | Front End Developer | Engineer</h3> */}
+                    <Typical
+                        steps={['Programmer', 1000, 'Front End Developer', 1000, 'Engineer', 1000]}
+                        loop={Infinity}
+                        wrapper="h3"
+                    />
                     <a href="#Contact"><button className="contact-btn">Contact Me</button></a>
                     <button className="resume" onClick={showResume}>Download Resume</button>
                 </div>

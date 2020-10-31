@@ -11,8 +11,8 @@ const Left = () => {
             <div className="info">
                 <h2 className="text-dark"><strong>Balay Kumar Bagchi</strong></h2>
                 <h4 className="text-muted">Front End Developer</h4>
-                <h5 className="my-3"><FontAwesomeIcon icon={faHome} /> 98/1, Sagorpara, Rajshahi</h5>
-                <h6 className="my-3"><FontAwesomeIcon icon={faBuilding} /> Pipesort Technologies LLP</h6>
+                <h5 className="my-3"><FontAwesomeIcon icon={faBuilding} /> Pipesort Technologies LLP</h5>
+                <h6 className="my-3"><FontAwesomeIcon icon={faHome} /> 98/1, Sagorpara, Rajshahi</h6>
                 <h6 className="my-3"><FontAwesomeIcon icon={faAt} /> bkbagchi.dipto@gmail.com</h6>
                 <h6 className="my-3"><FontAwesomeIcon icon={faPhoneAlt} /> +8801716101098</h6>
                 <ul className="brandIcons m-0 p-0">
