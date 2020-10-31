@@ -12,14 +12,14 @@ const Work = ({ work }) => {
     }, [work])
 
     return (
-        <main className="work d-flex flex-wrap justify-content-center row w-100 m-0 mt-5">
-            {
-                works.map(detail => {
-                    const { id, name, description, image, github, liveSite } = detail
+        <Zoom left>
+            <main className="work d-flex flex-wrap justify-content-center row w-100 m-0 mt-5">
+                {
+                    works.map(detail => {
+                        const { id, name, description, image, github, liveSite } = detail
 
-                    return (
-                        <Zoom left>
-                            <div key={id} className="col-4 p-0 each-work">
+                        return (
+                            <div div key={id} className="col-4 p-0 each-work" >
                                 <div className="card">
                                     <img src={require(`../../../Images/${image}`)} className="card-img-top" alt="..." />
                                     <div className="card-body">
@@ -34,11 +34,11 @@ const Work = ({ work }) => {
                                     </div>
                                 </div>
                             </div>
-                        </Zoom>
-                    )
-                })
-            }
-        </main>
+                        )
+                    })
+                }
+            </main>
+        </Zoom>
     );
 };
 
