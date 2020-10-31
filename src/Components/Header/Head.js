@@ -13,7 +13,7 @@ const Head = () => {
                 <div className="text font-italic">
                     <h3>Hello there...</h3>
                     <h2>I am <br />
-                        <label>Balay Kumar Bagchi</label></h2>
+                        <label className="animate__animated animate__rubberBand">Balay Kumar Bagchi</label></h2>
                     {/* <h3>Programmer | Front End Developer | Engineer</h3> */}
                     <Typical
                         steps={['Programmer', 1000, 'Front End Developer', 1000, 'Engineer', 1000]}
