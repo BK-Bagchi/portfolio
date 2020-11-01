@@ -6,11 +6,14 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faDownload, faGlobe, faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons'
 
 const Resume = () => {
-    // alert("This page is under contraction")
+    const openLink = (link) => {
+        window.open(link, "_blank")
+    }
     return (
         <section className="see-resume p-5 d-flex justify-content-center">
             <div className="go-back d-flex flex-column">
-                <a href="#" className="my-2"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
+                <a href="#" className="my-2" onClick={() => openLink('https://drive.google.com/file/d/12MtgEbxygB5mqd6Dr4JW8xlk4eDtDHi3/view')}>
+                    <FontAwesomeIcon icon={faDownload} /> Download Resume</a>
                 <Link to="/" className="my-2"><FontAwesomeIcon icon={faLongArrowAltLeft} /> Go Back</Link>
             </div>
             <main className="p-5">
@@ -23,9 +26,15 @@ const Resume = () => {
                         <h5 className="link">bkbagchi.dipto@gmail.com</h5>
                     </div>
                     <div className="col-md-6 d-flex flex-column justify-content-center align-items-end">
-                        <h5 className="link"><FontAwesomeIcon icon={faGithub} /> GitHub</h5>
-                        <h5 className="link"><FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn</h5>
-                        <h5 className="link"><FontAwesomeIcon icon={faGlobe} /> Portfolio</h5>
+                        <h5 className="link" onClick={() => openLink('https://github.com/BK-Bagchi')}>
+                            <FontAwesomeIcon icon={faGithub} /> GitHub
+                        </h5>
+                        <h5 className="link" onClick={() => openLink('https://www.linkedin.com/in/bkbagchi-dipto/')}>
+                            <FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn
+                        </h5>
+                        <h5 className="link" onClick={() => openLink('https://bkbagchi-dipto.netlify.app/')}>
+                            <FontAwesomeIcon icon={faGlobe} /> Portfolio
+                        </h5>
                     </div>
                 </div>
                 <div className="objective mt-3">
@@ -54,35 +63,40 @@ const Resume = () => {
                 <div className="projects">
                     <h3 className="color bold">Projects</h3>
                     <div className="ml-4">
-                        <h4>Red Onion Foods <span className="github">| GitHub </span><span className="live-site">| Live Link</span></h4>
+                        <h4>Red Onion Foods <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/red-onion-restaurent')}>| GitHub </span>
+                            <span className="live-site" onClick={() => openLink('https://the-red-onion-foods.web.app/')}>| Live Link</span></h4>
                         <ul>
                             <li>MERN project for a food delivery service or restaurant.</li>
                             <li>Provides different menu for breakfast, lunch and dinner.</li>
                             <li>There is a cart holding selected foods and user can customize his cart.</li>
                             <li>Built with ReactJS, Material-UI, Bootstrap, ExpressJS, Firebase auth.</li>
                         </ul>
-                        <h4>The Ultimate Traveler <span className="github">| GitHub </span><span className="live-site">| Live Link</span></h4>
+                        <h4>The Ultimate Traveler <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/the-ultimate-traveler')}>| GitHub </span>
+                            <span className="live-site" onClick={() => openLink('https://the-ultimate-traveler.web.app/')}>| Live Link</span></h4>
                         <ul>
                             <li>ReactJS based front-end project showing different travel destination.</li>
                             <li>User selects his travel destination and fills the information form.</li>
                             <li>User will see hotels at his destination and google map will also be there.</li>
                             <li>Built with ReactJS, React Router, Material-UI, Bootstrap, Firebase auth.</li>
                         </ul>
-                        <h4>Volunteer Network <span className="github">| GitHub </span><span className="live-site">| Live Link</span></h4>
+                        <h4>Volunteer Network <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/vlounteer-network')}>| GitHub </span>
+                            <span className="live-site" onClick={() => openLink('https://volunteers-network.web.app/')}>| Live Link</span></h4>
                         <ul>
                             <li>MERN project with real-time database shows different volunteering options.</li>
                             <li>User selects any work and register for the volunteering.</li>
                             <li>User has his own dashboard to see his selected works.</li>
                             <li>Built with ReactJS, Material-UI, Bootstrap, SwiperJS, ExpressJS, Firebase.</li>
                         </ul>
-                        <h4>Creative Agency <span className="github">| GitHub </span><span className="live-site">| Live Link</span></h4>
+                        <h4>Creative Agency <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/creative-agency')}>| GitHub </span>
+                            <span className="live-site" onClick={() => openLink('https://the-creative-agency.web.app/')}>| Live Link</span></h4>
                         <ul>
                             <li>Full-stack project with different feature for software or design firm.</li>
                             <li>User can order a work, review on work, see order condition from dashboard.</li>
                             <li>Admin can see all order list, add new feature and admin from dashboard.</li>
                             <li>Built with ReactJS, Bootstrap, SwiperJS, ExpressJS, Firebase auth.</li>
                         </ul>
-                        <h4>Social Dude <span className="github">| GitHub </span><span className="live-site">| Live Link</span></h4>
+                        <h4>Social Dude <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/social-buddy')}>| GitHub </span>
+                            <span className="live-site" onClick={() => openLink('https://social-dude.netlify.app/')}>| Live Link</span></h4>
                         <ul>
                             <li>React based web application shows components on screen using API data.</li>
                             <li>Calls different APIs, manages data in client side and shows an organized view.</li>
