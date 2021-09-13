@@ -4,7 +4,7 @@ import Typical from 'react-typical'
 
 const Head = () => {
     const showResume = () => {
-        window.open("https://drive.google.com/file/d/12MtgEbxygB5mqd6Dr4JW8xlk4eDtDHi3/view?usp=sharing", "_blank")
+        window.open("https://drive.google.com/file/d/1dh_puIuQhqUW9H8t1Mx1ikocE6B1vXWi/view?usp=sharing", "_blank")
     }
 
     return (

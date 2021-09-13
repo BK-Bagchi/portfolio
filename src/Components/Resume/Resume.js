@@ -12,7 +12,7 @@ const Resume = () => {
     return (
         <section className="see-resume p-5 d-flex justify-content-center">
             <div className="go-back d-flex flex-column">
-                <a href="#" className="my-2" onClick={() => openLink('https://drive.google.com/file/d/12MtgEbxygB5mqd6Dr4JW8xlk4eDtDHi3/view')}>
+                <a href="#" className="my-2" onClick={() => openLink('https://drive.google.com/file/d/1dh_puIuQhqUW9H8t1Mx1ikocE6B1vXWi/view?usp=sharing')}>
                     <FontAwesomeIcon icon={faDownload} /> Download Resume</a>
                 <Link to="/" className="my-2"><FontAwesomeIcon icon={faLongArrowAltLeft} /> Go Back</Link>
             </div>
@@ -20,9 +20,8 @@ const Resume = () => {
                 <div className="top row">
                     <div className="col-md-6">
                         <h1 className="font-weight-bold">Balay Kumar Bagchi</h1>
-                        <h3 className="color">Front-end Developer</h3>
                         <h5>98/1, Sagorpara, Rajshahi</h5>
-                        <h5>+8801716101098</h5>
+                        <h5>+8801308723399</h5>
                         <h5 className="link">bkbagchi.dipto@gmail.com</h5>
                     </div>
                     <div className="col-md-6 d-flex flex-column justify-content-center align-items-end">
@@ -38,10 +37,22 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="objective mt-3">
-                    <h3 className="color bold">Career Objective</h3>
-                    <p>Love to work with web technologies and make different UI. The initial goal is to make
-                    a career as a front-end developer and have a dream to establish me as a full-stack
-                    developer.</p>
+                    <p>Former junior software developer at Pipesort Technologies LLP with 6 months of working experience. I am good at Javascript programming and ReactJS. Besides, love to work in different working environments and situations and am skilled with managing and developing works.</p>
+                </div>
+                <div className="experience">
+                    <h3 className="color bold">Experience</h3>
+                    <span className="text-muted">October 2020- January 2021</span>
+                    <h5>Intern Software Developer</h5>
+                    <span className="text-muted">January 2021- April 2021</span>
+                    <h5>Junior Software Developer</h5>
+                    <h4>Pipesort Technologies LLP, <span className="text-muted">Chennai, India</span></h4>
+                    <ul>
+                        <li>Made responsive UI of different projects according to given design.</li>
+                        <li>Integrated front-end with given APIs.</li>
+                        <li>Made data interaction between pages at client side.</li>
+                        <li>Communicated with clients and collect project demands.</li>
+                        <li>Presented clients the project progress and collect further instructions.</li>
+                    </ul>
                 </div>
                 <div className="skills">
                     <h3 className="color bold">Programming Skills</h3>
@@ -49,19 +60,30 @@ const Resume = () => {
                     <p><span className="font-weight-bold">Familiar: </span>NodeJS, ExpressJS, MySQL, MongoDB, Material-UI, Python, SASS</p>
                     <p><span className="font-weight-bold">Tools: </span>Git, Firebase, Chrome Dev Tools, VS Code, Sublime Text</p>
                 </div>
-                <div className="experience">
-                    <h3 className="color bold">Experience</h3>
-                    <span className="text-muted">Oct 2020- Present</span>
-                    <h6>Intern Software Developer</h6>
-                    <h5>Pipesort Technologies LLP, <span className="text-muted">Chennai, India</span></h5>
-                    <ul>
-                        <li>Made responsive UI of different projects according to given design.</li>
-                        <li>Integrated front-end with given APIs.</li>
-                        <li>Made data interaction between pages at client side.</li>
-                    </ul>
+                <div className="skills">
+                    <h3 className="color bold">Software Skills</h3>
+                    <div className="d-flex">
+                        <div>
+                            <ul>
+                                <li>MS Word</li>
+                                <li>MS PowerPoint</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>MS Excel</li>
+                                <li>TeamViewer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>VS Code</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className="projects">
-                    <h3 className="color bold">Projects</h3>
+                    <h3 className="color bold">Personal Projects</h3>
                     <div className="ml-4">
                         <h4>Red Onion Foods <span className="github" onClick={() => openLink('https://github.com/BK-Bagchi/red-onion-restaurent')}>| GitHub </span>
                             <span className="live-site" onClick={() => openLink('https://the-red-onion-foods.web.app/')}>| Live Link</span></h4>
@@ -108,26 +130,7 @@ const Resume = () => {
                     <h3 className="color bold">Education</h3>
                     <span className="text-muted">January 2017 - December 2020</span>
                     <h4>Varendra University, Rajshahi <span className="text-muted font-italic">B.Sc. in </span>Computer Science and Engineering</h4>
-                    <p>CGPA: 3.81/4</p>
-                </div>
-                <div className="reference">
-                    <h3 className="color bold">Reference</h3>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <h4>Sabina Yasmin</h4>
-                            <p>Assistant Professor</p>
-                            <p>Dept. of CSE, Varendra University</p>
-                            <p>Contact No: +8801716-793242</p>
-                            <p>Email: sabina@vu.edu.bd</p>
-                        </div>
-                        <div className="col-md-6">
-                            <h4>Md. Toufiqul Islam</h4>
-                            <p>Lecturer</p>
-                            <p>Dept. of CSE, Varendra University</p>
-                            <p>Contact No: +8801701-012413</p>
-                            <p>Email: toufikul@vu.edu.bd</p>
-                        </div>
-                    </div>
+                    <p>CGPA: 3.85/4</p>
                 </div>
                 <div className="declaration">
                     <h3 className="color bold">Declaration</h3>

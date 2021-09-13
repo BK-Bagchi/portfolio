@@ -24,7 +24,7 @@ const Contact = () => {
                                 <div className="contact-info">
                                     <div className="phone my-5">
                                         <p className="m-0 logo"><FontAwesomeIcon icon={faPhoneAlt} /></p>
-                                        <p className="info">+8801716101098</p>
+                                        <p className="info">+8801308723399</p>
                                     </div>
                                     <div className="address my-5">
                                         <p className="m-0 logo"><FontAwesomeIcon icon={faHome} /></p>
