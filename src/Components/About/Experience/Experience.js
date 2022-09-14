@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css'
 const Experience = () => {
     const [experience, getExperience] = useState([])
     useEffect(() => {
-        fetch('http://127.0.0.1:8000/api/experience/')
+        fetch('https://bk-bagchi-portfolio.herokuapp.com/api/experience/')
         .then(res=> res.json())
         .then(data=>{
             getExperience(data)

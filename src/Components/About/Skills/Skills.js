@@ -10,14 +10,14 @@ const Skills = () => {
     const [skillDetail, setSkillDetail]= useState([]);
 
     useEffect(() =>{
-        fetch('http://127.0.0.1:8000/api/additionalskills/')
+        fetch('https://bk-bagchi-portfolio.herokuapp.com/api/additionalskills/')
         .then(res=>res.json())
         .then(data=> {
             setAddSkills(data)
         })
     },[])
     useEffect(() => {
-        fetch('http://127.0.0.1:8000/api/skilldetail/')
+        fetch('https://bk-bagchi-portfolio.herokuapp.com/api/skilldetail/')
             .then(res => res.json())
             .then(data => {
                 setSkillDetail(data)
